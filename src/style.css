@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(255, 134, 91);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+  text-align: center;
+  margin-top: 15%;
+  font-size: 55px;
+}
+
+.input {
+  border-radius: 8px;
+  width: 40%;
+  height: 20px;
+  text-align: center;
+}
+
+input {
+  text-align: center;
+  margin-left: 27%;
+}
+
+ul {
+  border: 3px solid rgb(44, 42, 42);
+  width: 50%;
+  margin-left: 21%;
+  margin-top: 50px;
+  box-shadow: 5px 5px 5px 1px;
+  display: flex;
+  flex-direction: column;
+}
+
+.list-add {
+  border: 1px solid rgb(44, 42, 42);
+  height: 28px;
+}
+
+.but-add {
+  outline:none;
+  border-radius: 8px;
+  margin-left: 20px;
+}
+
+button.delete-but {
+  outline:none;
+  border-radius: 8px;
+  width: 20px;
+  margin-left: 95%;
+  margin-top: 5px;
+}
